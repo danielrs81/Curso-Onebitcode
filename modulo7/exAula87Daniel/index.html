@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partida da Nave</title>
+</head>
+<body>
+<header>
+    <h1>Horário de Partida</h1>
+</header>
+<section>
+    <div>
+        <p>Hora de Partida da Nave: <input type="text" name="data" id="idata"></p>
+        <p>Vamos calcular quanto tempo ainda falta</p>
+        <div>
+            <p>Escolha como gostaria de exibir o tempo de partida</p>
+            <p>Segundos: <input type="radio" name="te" id="is"></p>
+            <p>Minutos: <input type="radio" name="te" id="im"></p>
+            <p>Horas: <input type="radio" name="te" id="ih"></p>
+            <p>Dias: <input type="radio" name="te" id="idia"></p>
+        </div>
+        <p><input type="button" value="Enviar" onclick="calcular()"></p>
+
+
+    </div>
+    <div id="res">
+    <p>Calculando o tempo......</p>
+    </div>
+</section>
+    
+</body>
+</html>
