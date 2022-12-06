@@ -10,5 +10,5 @@ function calcular() {
     if(dataDigitada == 0) {
         res.innerHTML = `Data em branco`
     }
-}
+} 
 
